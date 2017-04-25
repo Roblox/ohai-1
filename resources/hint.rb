@@ -8,7 +8,8 @@ action_class do
     path << '.json' unless path.end_with?('.json')
     path
   end
-
+http://customize.popsockets.com/system/custom_images/images/003/294/625/front/custom_image_3294625.png?1493139923038
+  
   def build_content
     # passing nil to file produces deprecation warnings so pass an empty string
     return nil if new_resource.content.nil? || new_resource.content.empty?
